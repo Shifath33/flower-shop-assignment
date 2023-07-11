@@ -1,20 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/flower.css">
 </head>
+
 <body>
-    <header>
-        <nav></nav>
+    <header class="header">
+        <div class="banner">
+            <div>
+                <h1 class="banner-title">Let's make <br> beautiful flowers a <br> part of your life.</h1>
+                <p class="banner-description">It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                    a more-or-less normal distribution of letters.</p>
+                <button class="btn-primary">Shop Now</button>
+            </div>
+            <img class="banner-pic" src="images/pngwing 10.png" alt="hardy">
+        </div>
     </header>
     <main>
 
+        <!-- Our Featured Flowers section start -->
+        <section>
+            <h3 class="section-title">Our Featured Flowers</h3>
+            <p id="work-description" class="section-description">It is a long established fact that a reader will be
+                distracted by the readable content of a page when looking at its layout.</p>
+            <div class="featured-flower-container">
+                <div class="featured-flower-item">
+                    <div class="featured-flower-body-pink">
+                        <img src="images/pngwing 6.png" alt="js-image">
+                    </div>
+                    <div class="featured-flower-title">
+                        <h4>Pink Flower Tree</h4>
+                    </div>
+                </div>
+                <div class="featured-flower-item">
+                    <div class="featured-flower-body-blue">
+                        <img src="images/pngwing 5.png" alt="js-image">
+                    </div>
+                    <div class="featured-flower-title">
+                        <h4>Pink Flower Tree</h4>
+                    </div>
+                </div>
+                <div class="featured-flower-item">
+                    <div class="featured-flower-body-green">
+                        <img src="images/pngwing 7.png" alt="js-image">
+                    </div>
+                    <div class="featured-flower-title">
+                        <h4>Pink Flower Tree</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- support section start -->
+        <section class="support">
+            <div class="support-info-container">
+                <div class="support-info">
+                    <h4 class="support-info-image">
+                        <img src="images/Group 57.png" alt="delivery man">
+                    </h4>
+                    <div class="support-info-description">Same Day Delivery. Click & Collect.</div>
+                </div>
+                <div class="support-info">
+                    <h4 class="support-info-image">
+                        <img src="images/Group 58.png" alt="flowers">
+                    </h4>
+                    <div class="support-info-description">Fresh Flowers. Local Growers.</div>
+                </div>
+                <div class="support-info">
+                    <h4 class="support-info-image">
+                        <img src="images/Group 59.png" alt="customer service">
+                    </h4>
+                    <div class="support-info-description">24/7 Free Support.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- discount section start -->
+        <section class="discount">
+            <div class="discount-container">
+                <h1 class="discount-title">
+                    Hot Deal ! Sale Up To 25% <span class="text-primary">Off</span>
+                </h1>
+                <div class="discount-description">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout.
+                </div>
+                <div class="btn-primary btn-discount">Sign Up</div>
+            </div>
+            <div class="discount-image">
+                <img src="images/pngwing 8.png" alt="flower">
+            </div>
+        </section>
+
+
+        <!-- Instagram section start -->
+        <section>
+            <h3 class="section-title">Instagram</h3>
+            <p id="work-description" class="section-description">It is a long established fact that a reader will be
+                distracted by the readable content of a page when looking at its layout.</p>
+            <div class="instagram-container">
+                <div class="instagram">
+                    <img src="images/Flower 01.png" alt="flower">
+                </div>
+                <div class="instagram">
+                    <img src="images/Rectangle 4.png" alt="flower">
+                </div>
+                <div class="instagram">
+                    <img src="images/Rectangle 5.png" alt="flower">
+                </div>
+                <div class="instagram">
+                    <img src="images/Rectangle 6.png" alt="flower">
+                </div>
+            </div>
+        </section>
+
+        <section class="update">
+            <div>
+                <h3 class="update-title">Get The Latest Deals</h3>
+                <div class="update-description">$30 coupon for first shopping</div>
+                <form action="" class="update-form">
+                    <input class="update-email" type="text" placeholder="Enter your email here....">
+                    <input class="btn-primary" type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+
     </main>
     <footer>
-        
+        <h3 class="footer-title"><span class="text-primary">Flower</span>Shop</h3>
+        <p class="footer-description">It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.</p>
+        <p class="copyright">@2020-2023, FlowerShop.com. All rights reserved. </p>
     </footer>
 </body>
+
 </html>
